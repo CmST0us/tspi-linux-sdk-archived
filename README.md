@@ -4,7 +4,7 @@
 基于Rockchip原厂 `rk4.1-202305` 版本
 
 ## Kernel
-版本 `5.10.160`
+版本 `5.10.198`
 
 - 添加distroboot支持, 在配置中增加 `RK_KERNEL_BOOT_TYPE=distroboot`
 
@@ -34,6 +34,7 @@ adb forward tcp:2222 tcp:22
 Build 基础Ubuntu镜像
 **注意在构建Ubuntu时，需要输入电脑的root密码**
 ```
+./build.sh init
 ./build.sh 
 ```
 
