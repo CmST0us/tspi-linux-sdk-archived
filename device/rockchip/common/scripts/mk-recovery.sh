@@ -15,6 +15,8 @@ clean_hook()
 BUILD_CMDS="recovery"
 build_hook()
 {
+	# No need to build recovery
+	return 0
 	[ -z "$RK_AB_UPDATE" ] || return 0
 
 	check_config RK_RECOVERY_CFG || return 0
