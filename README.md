@@ -3,6 +3,10 @@
 泰山派Linux SDK
 基于Rockchip原厂 `rk4.1-202305` 版本
 
+## 源码包
+直接clone下载比较大，可以考虑使用初始源码包
+* 百度盘: [https://pan.baidu.com/s/1jxfGnd5a9eMD3Wd4nY-Mwg?pwd=3ivk](https://pan.baidu.com/s/1jxfGnd5a9eMD3Wd4nY-Mwg?pwd=3ivk) 
+
 ## Kernel
 版本 `5.10.198`
 
