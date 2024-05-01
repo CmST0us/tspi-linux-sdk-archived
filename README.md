@@ -7,6 +7,26 @@
 直接clone下载比较大，可以考虑使用初始源码包
 * 百度盘: [https://pan.baidu.com/s/1jxfGnd5a9eMD3Wd4nY-Mwg?pwd=3ivk](https://pan.baidu.com/s/1jxfGnd5a9eMD3Wd4nY-Mwg?pwd=3ivk) 
 
+## 编译步骤
+以下步骤针对Ubuntu 22.04编译环境
+
+```bash
+sudo apt install git-lfs
+git clone https://github.com/CmST0us/tspi-linux-sdk.git
+cd tspi-linux-sdk
+git lfs fetch
+git lfs checkout
+
+sudo apt update
+sudo apt upgrade
+sudo apt install git ssh make gcc libssl-dev liblz4-tool expect \
+g++ patchelf chrpath gawk texinfo chrpath diffstat binfmt-support \
+qemu-user-static live-build bison flex fakeroot cmake gcc-multilib \
+g++-multilib unzip device-tree-compiler ncurses-dev python2
+./build.sh init
+./build.sh
+```
+
 ## Kernel
 版本 `5.10.198`
 
