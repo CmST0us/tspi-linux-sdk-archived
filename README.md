@@ -18,8 +18,7 @@ git lfs fetch
 git lfs checkout
 
 sudo apt update
-sudo apt upgrade
-sudo apt install git ssh make gcc libssl-dev liblz4-tool expect \
+sudo apt install -y git ssh make gcc libssl-dev liblz4-tool expect \
 g++ patchelf chrpath gawk texinfo chrpath diffstat binfmt-support \
 qemu-user-static live-build bison flex fakeroot cmake gcc-multilib \
 g++-multilib unzip device-tree-compiler ncurses-dev python2
